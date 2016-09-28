@@ -11,8 +11,8 @@
 1、init(json)
 >注：这个方法主要使用来初始化轮播插件的配置，如果传入为空或者不进行传参的话，那么插件将采用默认的配置进行初始化<br>
 >JSON格式如下:  
->json:{  
->direction&nbsp;&nbsp;&nbsp;&nbsp; STRING &nbsp;&nbsp;&nbsp;&nbsp;[default:'right']  
->//这一个字段是设置轮播图的方向，选项有'left','right'两个选项，不设置默认选中'right'  
->
->}
+<pre>json:{
+	direction    String   ['default':'right']
+	//这个属性主要是用来设置轮播图的旋转方向，可选的选项为right ,left 默认选中right
+	
+}</pre>
