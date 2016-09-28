@@ -5,7 +5,7 @@
 ###插件构成
 这款插件主要可以分成两部分<br>
 1. 插件初始化<br>
-2. API交互
+2. API交互(1.0版本暂未开通)
 
 ###API说明
 1、init(json)
@@ -38,6 +38,6 @@
 		type      STRING  ['default','circle']
 		//这个字段是设置附属工具的类型的，目前支持circle圆形显示,overviewImg缩略图显示
 		}
-
 	}
 </pre>
+###DEMO
