@@ -25,6 +25,6 @@
 		delay	   INT   ['default',null]
 		//标识延迟的时间，只有在isDelay设置为true的时候才生效
 			}
-		//这个属性是用来
-		}
+	//这个属性是用来
+	}
 </pre>
