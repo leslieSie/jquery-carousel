@@ -12,7 +12,11 @@
 >注：这个方法主要使用来初始化轮播插件的配置，如果传入为空或者不进行传参的话，那么插件将采用默认的配置进行初始化<br>
 >JSON格式如下:  
 <pre>json:{
-	direction    String   ['default':'right']
+	direction    STRING   ['default':'right']
 	//这个属性主要是用来设置轮播图的旋转方向，可选的选项为right ,left 默认选中right
-	
+	animate:{
+		speed:  STRING|INT  ['default':'normal']
+		//这个属性用来设置轮播图的
+	}
+	//这个属性包含轮播动画的一些设置
 }</pre>
