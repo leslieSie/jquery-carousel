@@ -10,6 +10,9 @@
 ###API说明
 1、init(json)
 >注：这个方法主要使用来初始化轮播插件的配置，如果传入为空或者不进行传参的话，那么插件将采用默认的配置进行初始化<br>
->JSON格式如下:<br>
->json{
+>JSON格式如下:  
+>json:{  
+>   //滚动方向：目前支持左滚动和有滚动两种  
+>   direction:left|right    defaultVaule(默认值)=left  
+>   //  
 >}
